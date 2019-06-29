@@ -1,0 +1,12 @@
+    #include <iostream>
+    int main() {
+    	float L;
+    	float R;
+    	float S;
+    	const float pi = 3.14;
+    	std::cout << "Input circumference L=";
+    	std::cin >> L;
+    	R = L / (2 * pi);
+    	S = pi * R*R;
+    	std::cout << "The area of a circle S=" << S;
+    }
